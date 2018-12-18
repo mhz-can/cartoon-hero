@@ -1,0 +1,41 @@
+/*Kalau pake <link> gk usah pake <style> style-an tapi fungsinya tetap sama */
+/*<Style> berguna supaya semua kelompok element yg sama atribut juga sama, sehingga gak perlu pake masukin key:value satu per satu*/
+/*Link dan Style sama aja fungsinya cuma lebih rapi link*/
+body{
+	background-color: lightgrey;
+}
+	h1{
+		color: red;
+		font-size: 90px;
+		text-decoration: underline;
+	}
+	/*Ada yg namanya weighing(waiting) di CSS istilah dari pemrioritaskan. Class pangkatnya lbh tinggi dan diutamakann dibandingkan tag element. Sehingga class mengoverride data sebelumnya, entah dimanapun letaknya class. Class kalah sama ID*/
+
+	/*Ini ID*/
+	/*Id seperti class, cuma hanya bisa di 1 element saja*/
+	#first{
+		font-size: 150px;
+	}
+
+	/*Ini class*/
+	.small{
+		font-size: 16px;
+		color: green;
+	}
+
+	/*Ini tag*/
+	h2{
+		font-size: 22px;
+		color: green;
+	}
+	/*Value yg terakhir bakal ovveride nindihi value yg sebelumnya*/
+
+	span{
+		font-style: italic;
+	}
+
+/*Hanya span di h2 saja yg dirubah datanya*/
+	h2 span{
+		/*Line trough=strikethrough*/
+		text-decoration: line-through;
+	}
