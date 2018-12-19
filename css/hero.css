@@ -61,6 +61,10 @@ a{
 	text-decoration: none;
 }
 
+a:hover{
+	color: blue;
+}
+
 footer{
 	margin-top: 20px;
 	padding: 40px 20px;
