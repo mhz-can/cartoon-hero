@@ -1,0 +1,77 @@
+/*<header>
+			<img src="img/profile.jpg">
+			<h1>Wreck-It Ralph</h1>
+</header>*/
+
+html,body{
+	font-family: Avenir, sans-serif;
+	/*Biar gambar nempel dan gk ada jarak sama browser*/
+	margin: 0;
+}
+
+header{
+	background-color: #B8F2B8;
+	/*Bisa pake shortcut nanti bisa kasih padding
+	bawah atas samping kanan kiri caranya
+	padding: 40px 20px 30px 40px;*/
+	padding: 40px;
+	text-align: center;
+}
+
+h1{
+	font-size: 90px;
+	color: white;
+}
+
+header img{
+	border-radius: 174px;
+	width: 300px;
+	border: 24px solid #B8D4F2;
+}
+
+.content{
+	max-width: 900px;
+	/*Kasih auto biar ada margin dikit auto menyesuaikan besarnya layar
+	kalau layar kecil nanti gk ada spasi*/
+	margin: 0 auto; 
+	/*buat padding kanan kiri*/
+	padding: 0 20px;
+}
+
+/* pakai .big-image juga bisa*/
+img.big-image{
+	max-width: 100%;
+}
+
+p.caption{
+	font-size: 16px;
+	font-style: italic;
+	font-family: Futura;
+	color: grey;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: red;
+	text-decoration: none;
+}
+
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color: #E6E6E6
+}
+
+ul{
+	text-align: center;
+}
+
+/*Inline ini jadinya nanti lurus*/
+footer ul li{
+	display: inline;
+}
