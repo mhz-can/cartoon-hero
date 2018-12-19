@@ -61,6 +61,8 @@ a{
 	text-decoration: none;
 }
 
+/*hover adalah pseudo class manggilnya pake :
+dan fungsinya pada state dimana url link di pilih tp blm di klik bakal ngapain */
 a:hover{
 	color: blue;
 }
