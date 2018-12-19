@@ -67,11 +67,12 @@ footer{
 	background-color: #E6E6E6
 }
 
-ul{
+footer ul{
 	text-align: center;
 }
 
-/*Inline ini jadinya nanti lurus*/
+/*Inline ini jadinya nanti lurus dan block ini biar ada marginnya*/
 footer ul li{
-	display: inline;
+	display: inline-block;
+	margin: 0 5px;
 }
